@@ -1,0 +1,35 @@
+.brand-cheer {
+  display: flex;
+  padding: 80px 146px;
+  flex-direction: column;
+  max-width: 800px;
+}
+.brand-cheer__title {
+  font-size: 96px;
+  font-family: var(--font-handwriting);
+  text-align: center;
+  color: var(--color-purple);
+}
+.brand-cheer__description {
+  font-size: 36px;
+  font-family: var(--font-handwriting);
+  text-align: center;
+  color: var(--color-purple);
+}
+.brand-cheer__licat {
+  margin: 40px auto 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-cheer {
+    max-width: 330px;
+    padding: 40px 42px;
+  }
+  .brand-cheer__title {
+    font-size: 64px;
+  }
+  .brand-cheer__licat {
+    margin: 24px auto 24px;
+    width: 100%;
+  }
+}

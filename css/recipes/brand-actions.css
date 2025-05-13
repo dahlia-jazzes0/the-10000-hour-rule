@@ -1,0 +1,13 @@
+.brand-actions {
+  display: flex;
+  margin: 120px auto 0;
+  column-gap: 12px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-actions {
+    margin-top: 52px;
+    column-gap: 8px;
+  }
+}

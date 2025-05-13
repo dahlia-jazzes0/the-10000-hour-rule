@@ -1,0 +1,23 @@
+.brand-quote {
+  display: block;
+  margin: 52px auto 0;
+  color: var(--color-yellow);
+  text-align: center;
+  font-family: var(--font-handwriting);
+  font-size: 36px;
+  text-wrap: balance;
+  word-break: keep-all;
+  line-height: normal;
+
+  &::after,
+  &::before {
+    content: '"';
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand-quote {
+    font-size: 22px;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,26 @@
+.brand-description {
+  margin: 80px auto 0;
+  max-width: 485px;
+  padding: 0 54px;
+  background: center/contain no-repeat url("../../img/quotes.png");
+  text-align: center;
+  font-size: 18px;
+  text-wrap: balance;
+  word-break: keep-all;
+  line-height: normal;
+}
+.brand-description__emphasis {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-description {
+    font-size: 14px;
+    margin-top: 32px;
+    padding: 0 20px;
+  }
+  .brand-description__emphasis {
+    font-size: 14px;
+  }
+}

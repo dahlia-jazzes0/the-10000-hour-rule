@@ -1,0 +1,17 @@
+.input {
+  appearance: none;
+  padding: 16px 40px;
+  background: white;
+  border-radius: 8px;
+  border: none;
+
+  &::placeholder {
+    color: var(--color-text-muted);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    padding: 12px 40px;
+  }
+}

@@ -1,0 +1,35 @@
+.button {
+  appearance: none;
+  display: inline-flex;
+  padding: 20px 50px;
+  border-radius: 12px;
+  border: none;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button--primary {
+  background: var(--color-yellow);
+  color: var(--color-purple);
+}
+.button--secondary {
+  background: white;
+  color: var(--color-purple);
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 14px;
+    margin-top: 32px;
+    padding: 20px 32px;
+  }
+  .button--sm {
+    padding: 16px 24px;
+  }
+}
